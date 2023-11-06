@@ -45,7 +45,7 @@ router.get('/:id', async (req,res)=>{
           })
     }catch(err){
         console.log(err.message);
-        return response.status(500).send({message:err.message})
+        return res.status(500).send({message:err.message})
     }
 })
 

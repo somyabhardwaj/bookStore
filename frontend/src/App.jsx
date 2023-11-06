@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Edit from './pages/Edit';
 import DeleteBook from './pages/deleteBook';
-import Create from './pages/create';
+import Create from './pages/Create';
 import ShowBooks from './pages/ShowBooks';
 
 function App() {
